@@ -1,0 +1,61 @@
+body {
+    background-image: url("yarn.jpeg");
+    background-size: cover;
+    font-family: -apple-system, 
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    background: grey;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    color: gainsboro;
+    text-shadow: black 1px 0 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: monospace;
+    color: gainsboro;
+    text-shadow: black 1px 0 10px;
+}
+
+button {
+    border: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: lightblue;
+}
+
+#save-btn {
+    background: lightgreen;
+}
+
+p {
+    color: gainsboro;
+    text-shadow: black 1px 0 10px;
+    font-family: monospace;
+}
+
+div {
+    max-width: fit-content;
+}
